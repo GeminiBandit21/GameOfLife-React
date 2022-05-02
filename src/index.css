@@ -4,7 +4,6 @@ html {
 body {
   min-height: 100%;
   background-repeat: no-repeat;
-  background-color:hsla(95,35%,68%,1);
   background-image:
   radial-gradient(at 90% 96%, hsla(35,100%,56%,1) 0px, transparent 50%),
   radial-gradient(at 5% 94%, hsl(188, 100%, 32%) 0px, transparent 50%),
@@ -19,11 +18,9 @@ body {
   /* background: linear-gradient(110deg,#113136 5%, hsl(95, 37%, 68%) 50%, hsl(35, 89%, 57%) 90%) */
 }
 
-
-  
 .box {
   display: inline-block;       
-  border: 1px solid rgb(24, 23, 23);
+  border: 1px solid black;
   width: 15px;
   height: 15px;
   margin-left: -1px;
@@ -31,11 +28,11 @@ body {
   }
 
 .off {
-  background-color: rgba(255, 255, 255, 0.781);
+  background-color: rgba(255, 255, 255, 0.815);
 }
 
 .on {
-  background-color: rgb(0, 128, 75);
+  background-color: transparent;
 }
   
 .box:hover { 
@@ -63,7 +60,7 @@ h1, h2, h3, h4 {
   margin: auto;
   text-align: center;
   width: 50%;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 h4 {
