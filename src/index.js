@@ -21,7 +21,7 @@ class Box extends React.Component {
 
 class Grid extends React.Component {
 	render() {
-		const width = (this.props.cols * 14);
+		const width = (this.props.cols * 16);
 		var rowsArr = [];
 
 		var boxClass = "";
@@ -98,8 +98,8 @@ class Main extends React.Component {
 	constructor() {
 		super();
 		this.speed = 100;
-		this.rows = 30;
-		this.cols = 50;
+		this.rows = 40;
+		this.cols = 80;
 
 		this.state = {
 			generation: 0,
@@ -119,7 +119,7 @@ class Main extends React.Component {
 		let gridCopy = arrayClone(this.state.gridFull);
 		for (let i = 0; i < this.rows; i++) {
 			for (let j = 0; j < this.cols; j++) {
-				if (Math.floor(Math.random() * 4) === 1) {
+				if (Math.floor(Math.random() * 5) === 1) {
 					gridCopy[i][j] = true;
 				}
 			}

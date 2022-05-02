@@ -15,14 +15,14 @@ body {
   radial-gradient(at 53% 86%, hsla(95,100%,68%,1) 0px, transparent 50%),
   radial-gradient(at 98% 46%, rgb(255, 203, 31) 0px, transparent 50%),
   radial-gradient(at 95% 9%, rgb(255, 107, 8) 0px, transparent 50%);
-  /* background: linear-gradient(110deg,#113136 5%, hsl(95, 37%, 68%) 50%, hsl(35, 89%, 57%) 90%) */
+
 }
 
 .box {
   display: inline-block;       
   border: 1px solid black;
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
   margin-left: -1px;
   margin-bottom: -1px;
   }
@@ -46,7 +46,6 @@ body {
 }
 
 .grid {
-  width: 150px;
   line-height: 0;
   margin: auto;
   border-radius: 5px;
